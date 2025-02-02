@@ -5,6 +5,7 @@
     "home_page_url": "https://ailogi.se",
     "feed_url": "https://ailogi.se/feed.json",
     "user_comment": "",
+    "icon": "https://ailogi.se/media/website/ailogi.png",
     "author": {
         "name": "Hambern"
     },
