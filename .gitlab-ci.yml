@@ -12,7 +12,7 @@ debug:
   script:
     - echo "🔑 Publika nyckeln som GitLab använder:"
     - cat ~/.ssh/id_rsa.pub  # Skriv ut den publika nyckeln
-    - echo "🔍 Testar SSH-anslutning..."
-    - ssh -v -i ~/.ssh/id_rsa alogi@ailogi.se "echo '✅ GitLab CI/CD kan nu ansluta!'"
+    - echo "🔍 Testar SSH-anslutning som alogi..."
+    - ssh -o "IdentitiesOnly=yes" -i ~/.ssh/id_rsa alogi@ailogi.se "echo '✅ GitLab CI/CD kan nu ansluta!'"
   only:
     - main
