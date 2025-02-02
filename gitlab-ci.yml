@@ -1,0 +1,15 @@
+stages:
+  - deploy
+
+deploy:
+  stage: deploy
+  before_script:
+    - apt-get update -y && apt-get install -y git openssh-client
+    - mkdir -p ~/.ssh
+    - echo "$SSH_PRIVATE_KEY" > ~/.ssh/id_rsa
+    - chmod 600 ~/.ssh/id_rsa
+    - ssh-keyscan -H ailogi.se >> ~/.ssh/known_hosts
+  script:
+    - ssh -o "StrictHostKeyChecking=no" -o "IdentitiesOnly=yes" -i ~/.ssh/id_rsa ailogi@ailogi.se "cd ~/apps/ailogi/public && git pull origin main && echo '🚀 Deployment klar!'"
+  only:
+    - main
