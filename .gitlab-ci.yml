@@ -9,10 +9,11 @@ debug:
     - echo "$SSH_PRIVATE_KEY" > ~/.ssh/id_rsa
     - chmod 600 ~/.ssh/id_rsa
     - ssh-keygen -y -f ~/.ssh/id_rsa > ~/.ssh/id_rsa.pub  # Generera den publika nyckeln
+    - ssh-keyscan -H ailogi.se >> ~/.ssh/known_hosts  # 🔴 Lägg till host-nyckeln
   script:
     - echo "🔑 Publika nyckeln som GitLab använder:"
     - cat ~/.ssh/id_rsa.pub  # Skriv ut den publika nyckeln
     - echo "🔍 Testar SSH-anslutning som alogi..."
-    - ssh -o "IdentitiesOnly=yes" -i ~/.ssh/id_rsa alogi@ailogi.se "echo '✅ GitLab CI/CD kan nu ansluta!'"
+    - ssh -o "StrictHostKeyChecking=no" -o "IdentitiesOnly=yes" -i ~/.ssh/id_rsa alogi@ailogi.se "echo '✅ GitLab CI/CD kan nu ansluta!'"
   only:
     - main
