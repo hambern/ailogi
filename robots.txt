@@ -1,3 +1,2 @@
 User-agent: *
 Disallow:
-Sitemap: https://ailogi.se/sitemap.xml
