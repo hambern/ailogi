@@ -1,19 +1,15 @@
 stages:
-  - debug
+  - deploy
 
-debug:
-  stage: debug
+deploy:
+  stage: deploy
   before_script:
     - apt-get update -y && apt-get install -y git openssh-client
     - mkdir -p ~/.ssh
     - echo "$SSH_PRIVATE_KEY" > ~/.ssh/id_rsa
     - chmod 600 ~/.ssh/id_rsa
-    - ssh-keygen -y -f ~/.ssh/id_rsa > ~/.ssh/id_rsa.pub  # Generera den publika nyckeln
-    - ssh-keyscan -H ailogi.se >> ~/.ssh/known_hosts  # 🔴 Lägg till host-nyckeln
+    - ssh-keyscan -H ailogi.se >> ~/.ssh/known_hosts
   script:
-    - echo "🔑 Publika nyckeln som GitLab använder:"
-    - cat ~/.ssh/id_rsa.pub  # Skriv ut den publika nyckeln
-    - echo "🔍 Testar SSH-anslutning som ailogi..."
-    - ssh -o "StrictHostKeyChecking=no" -o "IdentitiesOnly=yes" -i ~/.ssh/id_rsa ailogi@ailogi.se "echo '✅ GitLab CI/CD kan nu ansluta!'"
+    - ssh -o "StrictHostKeyChecking=no" -o "IdentitiesOnly=yes" -i ~/.ssh/id_rsa ailogi@ailogi.se "cd ~/apps/ailogi/public && git pull origin main && echo '🚀 Deployment klar!'"
   only:
     - main
