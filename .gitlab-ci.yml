@@ -1,0 +1,15 @@
+stages:
+  - deploy
+
+deploy:
+  stage: deploy
+  before_script:
+    - apt-get update -y && apt-get install -y git openssh-client
+    - mkdir -p ~/.ssh
+    - echo "$SSH_PRIVATE_KEY" > ~/.ssh/id_rsa
+    - chmod 600 ~/.ssh/id_rsa
+    - ssh-keyscan -H dinserver.glesys.com >> ~/.ssh/known_hosts
+  script:
+    - ssh -i ~/.ssh/id_rsa ditt-användarnamn@dinserver.glesys.com "cd /var/www/din-webbplats/public_html && git pull origin main"
+  only:
+    - main
