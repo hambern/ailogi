@@ -1,15 +1,14 @@
 stages:
-  - deploy
+  - debug
 
-deploy:
-  stage: deploy
+debug:
+  stage: debug
   before_script:
-    - apt-get update -y && apt-get install -y git openssh-client
     - mkdir -p ~/.ssh
     - echo "$SSH_PRIVATE_KEY" > ~/.ssh/id_rsa
     - chmod 600 ~/.ssh/id_rsa
-    - ssh-keyscan -H ailogi.se >> ~/.ssh/known_hosts
+    - ssh-keygen -y -f ~/.ssh/id_rsa
   script:
-    - ssh -i ~/.ssh/id_rsa alogi@ailogi.se "cd ~/app/ailogi && git pull origin main"
+    - echo "Privat nyckel fungerar och är korrekt!"
   only:
     - main
