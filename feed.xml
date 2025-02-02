@@ -3,7 +3,7 @@
     <title>Ailogi</title>
     <link href="https://ailogi.se/feed.xml" rel="self" />
     <link href="https://ailogi.se" />
-    <updated>2025-02-02T22:51:35+01:00</updated>
+    <updated>2025-02-02T22:58:01+01:00</updated>
     <author>
         <name>Hambern</name>
     </author>
@@ -17,6 +17,7 @@
         <link href="https://ailogi.se/vad-aer-egentligen-ai-2/"/>
         <id>https://ailogi.se/vad-aer-egentligen-ai-2/</id>
         <media:content url="https://ailogi.se/media/posts/3/DALLE-2025-02-02-22.51.19-A-futuristic-illustration-of-artificial-intelligence-concept.-A-glowing-digital-brain-made-of-neural-networks-circuits-and-data-streams-floating-in.webp" medium="image" />
+            <category term="Maskininlärning"/>
 
         <updated>2025-02-02T22:50:21+01:00</updated>
             <summary>
