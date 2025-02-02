@@ -1,15 +1,15 @@
 stages:
-  - debug
+  - deploy
 
-debug:
-  stage: debug
+deploy:
+  stage: deploy
   before_script:
+    - apt-get update -y && apt-get install -y git openssh-client
     - mkdir -p ~/.ssh
     - echo "$SSH_PRIVATE_KEY" > ~/.ssh/id_rsa
     - chmod 600 ~/.ssh/id_rsa
-    - ssh-keygen -y -f ~/.ssh/id_rsa
+    - ssh-keyscan -H ailogi.se >> ~/.ssh/known_hosts
   script:
-    - echo "Den publika nyckeln som GitLab använder:"
-    - ssh-keygen -y -f ~/.ssh/id_rsa
+    - ssh -i ~/.ssh/id_rsa alogi@ailogi.se "cd ~/apps/ailogi/public && git pull origin main"
   only:
     - main
