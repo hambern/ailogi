@@ -3,12 +3,103 @@
     <title>Ailogi</title>
     <link href="https://ailogi.se/feed.xml" rel="self" />
     <link href="https://ailogi.se" />
-    <updated>2025-02-02T23:31:09+01:00</updated>
+    <updated>2025-02-02T23:52:11+01:00</updated>
     <author>
         <name>Hambern</name>
     </author>
     <id>https://ailogi.se</id>
 
+    <entry>
+        <title>Hur fungerar maskininlärning? En steg-för-steg-guide</title>
+        <author>
+            <name>Hambern</name>
+        </author>
+        <link href="https://ailogi.se/hur-fungerar-maskininlaerning-en-steg-foer-steg-guide/"/>
+        <id>https://ailogi.se/hur-fungerar-maskininlaerning-en-steg-foer-steg-guide/</id>
+        <media:content url="https://ailogi.se/media/posts/5/DALLE-2025-02-02-23.51.57-A-minimalist-illustration-of-an-AI-being-trained.-A-simple-humanoid-AI-figure-connected-to-a-digital-neural-network-adjusting-its-internal-connection.webp" medium="image" />
+            <category term="Maskininlärning"/>
+
+        <updated>2025-02-02T23:50:10+01:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://ailogi.se/media/posts/5/DALLE-2025-02-02-23.51.57-A-minimalist-illustration-of-an-AI-being-trained.-A-simple-humanoid-AI-figure-connected-to-a-digital-neural-network-adjusting-its-internal-connection.webp" alt="" />
+                    Maskininlärning (ML) är en av de mest spännande och kraftfulla delarna av&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://ailogi.se/media/posts/5/DALLE-2025-02-02-23.51.57-A-minimalist-illustration-of-an-AI-being-trained.-A-simple-humanoid-AI-figure-connected-to-a-digital-neural-network-adjusting-its-internal-connection.webp" class="type:primaryImage" alt="" /></p>
+                <p>Maskininlärning (ML) är en av de mest spännande och kraftfulla delarna av artificiell intelligens. Den används i allt från rekommendationssystem på Netflix till självkörande bilar och avancerad sjukvårdsdiagnostik. Men hur fungerar det egentligen?</p>
+<p>I den här guiden går vi igenom <strong>hur maskininlärning fungerar – steg för steg</strong> – så att du får en tydlig förståelse för processen bakom denna revolutionerande teknik.</p>
+<hr>
+<h2><strong>Vad är maskininlärning?</strong></h2>
+<p>Maskininlärning är en metod där datorer <strong>lär sig från data</strong> utan att vara explicit programmerade för varje uppgift. Istället för att följa fasta regler skapar algoritmen själv mönster och förbättrar sina resultat över tid.</p>
+<p>💡 <strong>Exempel:</strong><br>👉 Om du visar en AI tusentals bilder på hundar och katter, kan den lära sig att känna igen skillnaden – utan att någon programmerat in exakta regler för hur en katt ser ut.</p>
+<p>Detta sker genom en <strong>träningsprocess</strong>, som vi nu går igenom steg för steg.</p>
+<hr>
+<h2><strong>Steg 1: Insamling av data</strong></h2>
+<p>För att träna en maskininlärningsmodell behövs <strong>data</strong> – mycket data. Ju mer och bättre data, desto mer exakt blir modellen.</p>
+<p>🔹 <strong>Exempel på data:</strong></p>
+<ul>
+<li>Bilder (för bildigenkänning)</li>
+<li>Text (för språkmodeller som ChatGPT)</li>
+<li>Sensorinformation (för självkörande bilar)</li>
+<li>Transaktioner (för att upptäcka bedrägerier)</li>
+</ul>
+<p>📌 <strong>Viktigt:</strong> Data måste vara <strong>relevant och högkvalitativ</strong>. Dålig eller skev data leder till felaktiga resultat.</p>
+<hr>
+<h2><strong>Steg 2: Förberedelse och rensning av data</strong></h2>
+<p>Innan vi kan träna modellen måste datan rensas och struktureras. Detta kallas <strong>dataförbehandling</strong>.</p>
+<p>🔹 <strong>Typiska steg:</strong><br>✅ Ta bort felaktiga eller irrelevanta data<br>✅ Fyll i saknade värden<br>✅ Normalisera siffror (exempelvis sätta priser i samma valuta)<br>✅ Konvertera text och bilder till en form som modellen kan förstå</p>
+<p>📌 <strong>Exempel:</strong> Om du tränar en AI att känna igen språk, kan du behöva rensa bort specialtecken och omvandla ord till grundformer (exempelvis "springer" → "spring").</p>
+<hr>
+<h2><strong>Steg 3: Val av modell</strong></h2>
+<p>Det finns olika typer av maskininlärningsmodeller beroende på vad vi vill uppnå:</p>
+<h3><strong>1. Övervakad inlärning (Supervised Learning)</strong></h3>
+<p>Modellen tränas med data där svaret redan är känt.<br>🔹 <strong>Exempel:</strong></p>
+<ul>
+<li>Ett system lär sig känna igen mejl som spam genom att träna på redan kategoriserade mejl.</li>
+</ul>
+<h3><strong>2. Oövervakad inlärning (Unsupervised Learning)</strong></h3>
+<p>Modellen hittar mönster utan att ha fördefinierade svar.<br>🔹 <strong>Exempel:</strong></p>
+<ul>
+<li>En AI analyserar kundbeteenden och grupperar dem i olika segment utan att veta exakt varför.</li>
+</ul>
+<h3><strong>3. Förstärkningsinlärning (Reinforcement Learning)</strong></h3>
+<p>Modellen lär sig genom <strong>trial and error</strong> och belönas för rätt val.<br>🔹 <strong>Exempel:</strong></p>
+<ul>
+<li>AI som spelar schack och blir bättre genom att testa olika strategier.</li>
+</ul>
+<p>📌 <strong>Val av modell beror på vilken typ av problem vi vill lösa.</strong></p>
+<hr>
+<h2><strong>Steg 4: Träning av modellen</strong></h2>
+<p>Nu börjar själva inlärningsprocessen! Modellen matas med data och justerar sina interna parametrar för att förbättra sina resultat.</p>
+<p>💡 <strong>Så fungerar det:</strong><br>1️⃣ Modellen får ett indata (exempelvis en bild på en katt).<br>2️⃣ Den gör en gissning (”detta är en hund”).<br>3️⃣ Den jämför sin gissning med det korrekta svaret.<br>4️⃣ Om den har fel justerar den sina parametrar och försöker igen.<br>5️⃣ Detta upprepas <strong>tusentals eller miljontals gånger</strong> tills modellen blir träffsäker.</p>
+<p>📌 <strong>Exempel:</strong><br>En AI som identifierar sjukdomar i röntgenbilder tränas genom att jämföra sina förutsägelser med diagnoser från läkare.</p>
+<hr>
+<h2><strong>Steg 5: Testning och utvärdering</strong></h2>
+<p>När modellen är tränad måste den testas på <strong>ny data</strong> som den aldrig har sett förut. Detta görs för att se hur väl den generaliserar till nya situationer.</p>
+<p>📊 <strong>Vanliga metoder för utvärdering:</strong><br>✔ <strong>Noggrannhet (Accuracy):</strong> Hur ofta modellen har rätt.<br>✔ <strong>Precision &amp; Recall:</strong> Hur väl modellen balanserar att hitta rätt resultat utan att ge för många falska positiva.<br>✔ <strong>Felkällor:</strong> Analyserar var modellen gör misstag och varför.</p>
+<p>📌 <strong>Exempel:</strong> En AI som rekommenderar filmer testas genom att jämföra sina rekommendationer med vad användare faktiskt gillar.</p>
+<hr>
+<h2><strong>Steg 6: Implementation och förbättring</strong></h2>
+<p>Om modellen fungerar bra kan den implementeras i en <strong>verklig applikation</strong>. Men jobbet slutar inte här – modeller måste ofta justeras och förbättras över tid.</p>
+<p>🔄 <strong>Löpande förbättringar inkluderar:</strong><br>✅ Träning med mer data för högre precision<br>✅ Justering av parametrar för bättre prestanda<br>✅ Hantering av förändringar i användarbeteende</p>
+<p>📌 <strong>Exempel:</strong><br>Ett AI-system för röstassistenter (som Siri) uppdateras ständigt för att förstå nya dialekter och fraser.</p>
+<hr>
+<h2><strong>Sammanfattning: Maskininlärning i 6 steg</strong></h2>
+<p>1️⃣ <strong>Samla in data</strong> – AI behöver exempel att lära sig från.<br>2️⃣ <strong>Rensa och förbereda data</strong> – Dålig data ger dåliga resultat.<br>3️⃣ <strong>Välj en modell</strong> – Övervakad, oövervakad eller förstärkningsinlärning.<br>4️⃣ <strong>Träna modellen</strong> – AI justerar sig själv genom försök och misstag.<br>5️⃣ <strong>Testa och utvärdera</strong> – Ser om AI:n fungerar i praktiken.<br>6️⃣ <strong>Implementera och förbättra</strong> – AI-system måste uppdateras och optimeras.</p>
+<hr>
+<h2><strong>Var används maskininlärning idag?</strong></h2>
+<p>🔹 <strong>Sjukvård</strong> – Diagnostik och behandling<br>🔹 <strong>E-handel</strong> – Rekommendationer och prissättning<br>🔹 <strong>Finans</strong> – Upptäcka bedrägerier och analysera investeringar<br>🔹 <strong>Självkörande bilar</strong> – Identifiera hinder och fatta beslut<br>🔹 <strong>Språkteknologi</strong> – Chatbots och översättning</p>
+<p>Maskininlärning är överallt – och utvecklingen går snabbare än någonsin! 🚀</p>
+<hr>
+<h3><strong>Vill du testa maskininlärning själv?</strong></h3>
+<p>Det finns gratis verktyg som Google Colab och TensorFlow där du kan experimentera med ML-modeller själv.</p>
+<p>Vad tycker du om maskininlärning? Har du testat AI-drivna verktyg i ditt jobb eller din vardag? Kommentera och dela dina tankar! 😊</p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>AI på jobbet: Vilka yrken påverkas mest – och hur kan du dra nytta av det?</title>
         <author>
