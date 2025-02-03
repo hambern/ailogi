@@ -3,12 +3,55 @@
     <title>Ailogi</title>
     <link href="https://ailogi.se/feed.xml" rel="self" />
     <link href="https://ailogi.se" />
-    <updated>2025-02-04T00:41:51+01:00</updated>
+    <updated>2025-02-04T00:48:44+01:00</updated>
     <author>
         <name>Hambern</name>
     </author>
     <id>https://ailogi.se</id>
 
+    <entry>
+        <title>Låt AI göra dig smartare – inte latare</title>
+        <author>
+            <name>Hambern</name>
+        </author>
+        <link href="https://ailogi.se/lat-ai-goera-dig-smartare-inte-latare/"/>
+        <id>https://ailogi.se/lat-ai-goera-dig-smartare-inte-latare/</id>
+        <media:content url="https://ailogi.se/media/posts/13/DALLE-2025-02-04-00.48.08-A-humorous-and-exaggerated-gym-scene-where-a-lazy-clueless-student-is-sitting-on-a-bench-scrolling-on-their-phone-while-a-futuristic-AI-powered-rob.webp" medium="image" />
+            <category term="Lärande"/>
+
+        <updated>2025-02-04T00:48:44+01:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://ailogi.se/media/posts/13/DALLE-2025-02-04-00.48.08-A-humorous-and-exaggerated-gym-scene-where-a-lazy-clueless-student-is-sitting-on-a-bench-scrolling-on-their-phone-while-a-futuristic-AI-powered-rob.webp" alt="" />
+                    AI är ett fantastiskt verktyg. Det kan sammanfatta texter, förklara svåra begrepp&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://ailogi.se/media/posts/13/DALLE-2025-02-04-00.48.08-A-humorous-and-exaggerated-gym-scene-where-a-lazy-clueless-student-is-sitting-on-a-bench-scrolling-on-their-phone-while-a-futuristic-AI-powered-rob.webp" class="type:primaryImage" alt="" /></p>
+                <p>AI är ett fantastiskt verktyg. Det kan sammanfatta texter, förklara svåra begrepp och lösa problem på sekunder. Men om vi bara använder AI för att slippa tänka själva, riskerar vi att bli beroende av det – och i värsta fall <strong>mindre smarta</strong>.</p>
+<p>Det gäller särskilt för <strong>studenter och elever</strong> som idag har tillgång till verktyg som ChatGPT och Perplexity AI. Det är lätt att bara kopiera svar, men det gör ingen <strong>egentligen klokare</strong>. AI ska inte vara en <strong>ersättning för lärande</strong>, utan en <strong>genväg till förståelse</strong>.</p>
+<hr>
+<h2><strong>AI ska lära dig – inte ersätta ditt tänkande</strong></h2>
+<p>Att be AI skriva en uppsats eller lösa en matteuppgift åt dig kan verka smart. Men om du inte själv förstår svaret, vad har du egentligen lärt dig?</p>
+<p>📌 <strong>Rätt sätt att använda AI:</strong><br>✅ <strong>Fråga AI om förklaringar</strong> – Be om en steg-för-steg-guide istället för ett färdigt svar.<br>✅ <strong>Använd AI som bollplank</strong> – Jämför AI:s svar med din egen analys.<br>✅ <strong>Testa din förståelse</strong> – Be AI att förhöra dig på ett ämne.</p>
+<p>📌 <strong>Fel sätt att använda AI:</strong><br>❌ Kopiera en text rakt av utan att läsa den.<br>❌ Skriva in en mattefråga och klistra in svaret i provet.<br>❌ Använda AI för att undvika att tänka själv.</p>
+<p>AI ska vara <strong>din personliga lärare, inte din genväg till slapphet</strong>.</p>
+<hr>
+<h2><strong>Varför du måste tänka själv – även i AI-eran</strong></h2>
+<p>1️⃣ <strong>AI kan ha fel</strong> – Om du bara kopierar svar utan att dubbelkolla, kan du få felaktig information.<br>2️⃣ <strong>Kunskap fastnar bättre om du lär dig själv</strong> – Att aktivt bearbeta information gör att du kommer ihåg den längre.<br>3️⃣ <strong>Att tänka kritiskt blir viktigare</strong> – I en värld där AI kan skapa allt från uppsatser till forskningsrapporter måste du kunna avgöra vad som faktiskt är korrekt.</p>
+<hr>
+<h2><strong>Så gör du AI till en lärande partner</strong></h2>
+<p>🚀 <strong>1. Ställ frågor som utmanar dig</strong><br><em>”Förklara fotosyntesen som om jag vore fem år.”</em><br><em>”Hur kan jag förstå statistik på ett enkelt sätt?”</em></p>
+<p>🚀 <strong>2. Låt AI testa din förståelse</strong><br><em>”Ge mig en quiz om andra världskriget.”</em><br><em>”Ställ tre svåra frågor om programmering.”</em></p>
+<p>🚀 <strong>3. Använd AI för att förbättra ditt arbete</strong><br>Be AI granska <strong>din egen text</strong> och ge förbättringsförslag istället för att skriva åt dig.</p>
+<hr>
+<h2><strong>Slutsats: AI är en superkraft – om du använder den rätt</strong></h2>
+<p>AI är inte en ursäkt för att bli <strong>korkad och lat</strong>. Det är en chans att bli <strong>smartare och mer effektiv</strong> – men bara om du låter AI <strong>lära dig</strong> istället för att göra jobbet åt dig.</p>
+<p>📌 <strong>Använd AI för att förstå, inte för att undvika lärande.</strong> Då blir du inte bara en bättre student – du blir en skarpare tänkare i en AI-driven värld. 🚀</p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Omge dig med expertkunskap – Så kombinerar du Perplexity AI och NotebookLM</title>
         <author>
@@ -803,72 +846,6 @@ while True:
 <h2><strong>Sammanfattning: AI på jobbet – hot eller möjlighet?</strong></h2>
 <p>🔹 AI påverkar främst <strong>administration, marknadsföring, finans, industri och juridik</strong>.<br>🔹 Vissa jobb försvinner, men många blir effektivare och mer AI-assisterade.<br>🔹 De yrken som klarar sig bäst är de som kräver <strong>mänsklig kreativitet, strategi och problemlösning</strong>.<br>🔹 Genom att <strong>lära sig AI-verktyg, fokusera på kreativitet och utveckla strategiska färdigheter</strong>, kan du säkra din plats på framtidens arbetsmarknad.</p>
 <p>AI är <strong>inte här för att ersätta dig – det är här för att hjälpa dig</strong>. Det gäller bara att veta hur man använder det rätt! 🚀</p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Vad är egentligen AI?</title>
-        <author>
-            <name>Hambern</name>
-        </author>
-        <link href="https://ailogi.se/vad-aer-egentligen-ai-2/"/>
-        <id>https://ailogi.se/vad-aer-egentligen-ai-2/</id>
-        <media:content url="https://ailogi.se/media/posts/3/DALLE-2025-02-02-22.51.19-A-futuristic-illustration-of-artificial-intelligence-concept.-A-glowing-digital-brain-made-of-neural-networks-circuits-and-data-streams-floating-in.webp" medium="image" />
-            <category term="Maskininlärning"/>
-
-        <updated>2025-02-02T22:50:21+01:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://ailogi.se/media/posts/3/DALLE-2025-02-02-22.51.19-A-futuristic-illustration-of-artificial-intelligence-concept.-A-glowing-digital-brain-made-of-neural-networks-circuits-and-data-streams-floating-in.webp" alt="" />
-                    AI, eller artificiell intelligens, är ett begrepp som används flitigt idag –&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://ailogi.se/media/posts/3/DALLE-2025-02-02-22.51.19-A-futuristic-illustration-of-artificial-intelligence-concept.-A-glowing-digital-brain-made-of-neural-networks-circuits-and-data-streams-floating-in.webp" class="type:primaryImage" alt="" /></p>
-                <p>AI, eller <strong>artificiell intelligens</strong>, är ett begrepp som används flitigt idag – i nyheter, på arbetsplatser och i sociala medier. Men vad betyder det egentligen? Är AI en robot som kan tänka själv? Eller är det bara en avancerad kalkylator? I den här guiden reder vi ut begreppen och visar hur AI fungerar på ett enkelt och konkret sätt.</p>
-<hr>
-<h2><strong>Vad är AI?</strong></h2>
-<p>AI, eller <strong>artificiell intelligens</strong>, är ett samlingsnamn för datorprogram som kan utföra uppgifter som normalt kräver mänsklig intelligens. Det kan handla om att:</p>
-<p>✅ Känna igen mönster och lära sig av data<br>✅ Fatta beslut baserat på information<br>✅ Förstå och generera språk (som ChatGPT gör)<br>✅ Känna igen bilder och röster<br>✅ Spela spel och optimera strategier</p>
-<p>I grund och botten handlar AI om <strong>automatisering av tänkande</strong> – att låta datorer analysera, lära sig och lösa problem utan att en människa manuellt ger instruktioner för varje steg.</p>
-<hr>
-<h2><strong>Hur fungerar AI?</strong></h2>
-<p>AI bygger på <strong>algoritmer</strong> och <strong>maskininlärning</strong>. Låt oss bryta ner det:</p>
-<h3><strong>1. Algoritmer – AI:s byggstenar</strong></h3>
-<p>En <strong>algoritm</strong> är en uppsättning regler som talar om för en dator vad den ska göra. Tänk på det som ett recept:</p>
-<p>🔹 Om du vill baka en kaka, följer du ett recept steg för steg.<br>🔹 En dator följer algoritmer på samma sätt – den gör exakt vad den är programmerad att göra.</p>
-<p>Men traditionella program kan bara göra exakt det de har blivit kodade för. AI tar det ett steg längre…</p>
-<h3><strong>2. Maskininlärning – AI som lär sig själv</strong></h3>
-<p>Maskininlärning är en metod där AI lär sig genom att analysera data istället för att programmeras med fasta regler.</p>
-<p>💡 <strong>Exempel:</strong><br>👉 Om du visar en AI tusentals bilder på katter och hundar, kan den lära sig att känna igen skillnaden – utan att någon programmerat in exakta regler för hur en katt ser ut.</p>
-<p>Detta görs med hjälp av <strong>neuronnät</strong>, en teknik som är inspirerad av hur den mänskliga hjärnan fungerar. AI justerar sina inre kopplingar varje gång den gör en felaktig gissning, precis som vi gör när vi lär oss något nytt.</p>
-<hr>
-<h2><strong>Olika typer av AI</strong></h2>
-<p>AI kan delas in i tre huvudkategorier:</p>
-<h3><strong>1. Svag AI (Narrow AI) – specialiserade system</strong></h3>
-<p>Detta är den AI vi använder idag – program som är bra på specifika uppgifter men inte kan tänka eller resonera utanför sitt område.</p>
-<p><strong>Exempel på svag AI:</strong><br>✅ ChatGPT (textgenerering)<br>✅ Siri eller Google Assistant (röstassistenter)<br>✅ Netflix rekommendationssystem</p>
-<h3><strong>2. Stark AI (General AI) – en AI med mänsklig intelligens</strong></h3>
-<p>Denna typ av AI <strong>existerar ännu inte</strong>, men målet är att skapa en AI som kan förstå, resonera och fatta beslut på samma sätt som en människa – inom vilket ämne som helst.</p>
-<h3><strong>3. Superintelligens – AI som är smartare än oss</strong></h3>
-<p>En teoretisk nivå där AI inte bara når mänsklig intelligens utan överträffar oss i alla aspekter. Detta är ett omdebatterat ämne, där vissa forskare varnar för riskerna med en oreglerad superintelligent AI.</p>
-<hr>
-<h2><strong>Var används AI idag?</strong></h2>
-<p>AI finns redan överallt i vår vardag – ofta utan att vi tänker på det. Här är några vanliga exempel:</p>
-<p>📱 <strong>Smartphones</strong> – ansiktsigenkänning, röstassistenter, autocorrect<br>📺 <strong>Streaming-tjänster</strong> – AI rekommenderar filmer och serier på Netflix<br>🛒 <strong>E-handel</strong> – AI analyserar vad du gillar och föreslår produkter<br>🚗 <strong>Självkörande bilar</strong> – AI hjälper till att navigera och undvika olyckor<br>🏥 <strong>Sjukvård</strong> – AI används för att analysera röntgenbilder och hitta sjukdomar</p>
-<p>AI är alltså <strong>inte framtiden – det är nutiden!</strong></p>
-<hr>
-<h2><strong>Kommer AI ta över världen?</strong></h2>
-<p>Nej, i alla fall inte än. De AI-system vi har idag är <strong>väldigt specialiserade</strong> och saknar egen vilja eller medvetande. De gör det de är tränade för – men inget mer.</p>
-<p>Däremot finns det stora diskussioner om <strong>etik och säkerhet</strong>, till exempel:</p>
-<p>🔸 Hur säkerställer vi att AI inte diskriminerar?<br>🔸 Vem är ansvarig om en AI gör ett misstag?<br>🔸 Hur påverkar AI jobb och ekonomi?</p>
-<p>Det är viktiga frågor att fortsätta diskutera när tekniken utvecklas.</p>
-<hr>
-<h2><strong>Sammanfattning: Vad är AI?</strong></h2>
-<p>✔ AI är en teknik där datorer utför uppgifter som kräver intelligens.<br>✔ Den bygger på algoritmer och maskininlärning för att lära sig av data.<br>✔ Vi har idag svag AI, men forskare arbetar mot stark AI.<br>✔ AI finns redan överallt i vår vardag och påverkar allt från sjukvård till underhållning.</p>
-<p>Vill du testa AI själv? Prova att chatta med en AI (som ChatGPT), använda bildgenereringstjänster som DALL·E, eller analysera din egen data med AI-verktyg.</p>
-<p>AI är en av de mest spännande teknologierna just nu – och vi har bara sett början! 🚀</p>
             ]]>
         </content>
     </entry>
