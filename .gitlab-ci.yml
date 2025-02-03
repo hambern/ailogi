@@ -9,6 +9,6 @@ deploy:
     - chmod 600 ~/.ssh/id_rsa
     - ssh-keyscan -H ailogi.se >> ~/.ssh/known_hosts
   script:
-    - ssh -o "StrictHostKeyChecking=no" -o "IdentitiesOnly=yes" -i ~/.ssh/id_rsa ailogi@ailogi.se "cd ~/apps/ailogi/public && git pull origin main"
+    - ssh -o "StrictHostKeyChecking=no" -o "IdentitiesOnly=yes" -i ~/.ssh/id_rsa ailogi@ailogi.se "cd ~/apps/ailogi/public && git pull origin main && echo '🚀 Deployment klar!"
   only:
     - main
