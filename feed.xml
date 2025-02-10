@@ -3,7 +3,7 @@
     <title>Ailogi</title>
     <link href="https://ailogi.se/feed.xml" rel="self" />
     <link href="https://ailogi.se" />
-    <updated>2025-02-10T12:23:26+01:00</updated>
+    <updated>2025-02-10T12:26:04+01:00</updated>
     <author>
         <name>Lyktgubben</name>
     </author>
@@ -17,6 +17,8 @@
         <link href="https://ailogi.se/ai-som-katalysator-foer-kreativitet-en-ny-era-av-skapande/"/>
         <id>https://ailogi.se/ai-som-katalysator-foer-kreativitet-en-ny-era-av-skapande/</id>
         <media:content url="https://ailogi.se/media/posts/15/t_NwBooCVzLkY5BLHm.webp" medium="image" />
+            <category term="Kreativitet"/>
+            <category term="Automatisering"/>
 
         <updated>2025-02-10T12:23:26+01:00</updated>
             <summary>
@@ -59,8 +61,6 @@
 <p>AI förändrar inte bara sättet vi skapar på – den förändrar själva <strong>essensen</strong> av kreativitet.</p>
 <p>📌 <strong>AI kommer inte att ersätta mänsklig kreativitet, men den kommer att förstärka den, accelerera den och omdefiniera den.</strong></p>
 <p>💡 <strong>Vi står inför en kreativ revolution. Framtidens idéer kommer inte bara att vara nya – de kommer att vara obegripliga för oss idag, precis som elektricitet en gång var för medeltidens människor.</strong></p>
-<div><hr></div>
-<p>🔥 <strong>vad tror du? Kommer AI skapa något så radikalt att vi inte ens kan förstå det förrän vi lever i det?</strong></p>
 <p> </p>
             ]]>
         </content>
