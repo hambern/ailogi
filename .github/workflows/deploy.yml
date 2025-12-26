@@ -3,7 +3,6 @@ name: Deploy to Server
 on:
   push:
     branches:
-      - main
       - gh-pages
 
 jobs:
@@ -18,6 +17,6 @@ jobs:
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           script: |
             cd ~/apps/ailogi/public
-            git fetch origin main
-            git reset --hard origin/main
-            echo '🚀 Deployment updated from main!'
+            git fetch origin gh-pages
+            git reset --hard origin/gh-pages
+            echo '🚀 Deployment updated from gh-pages!'
