@@ -16,7 +16,7 @@ jobs:
           SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
           HOST: ailogi.se
           USER: ailogi
-          TARGET_DIR: /home/ailogi/htdocs/ailogi.se/public
+          TARGET_DIR: /home/ailogi/htdocs/ailogi.se
         run: |
           mkdir -p ~/.ssh/
           echo "$SSH_PRIVATE_KEY" > ~/.ssh/id_rsa
